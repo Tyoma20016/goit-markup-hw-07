@@ -1,0 +1,33 @@
+.client-cap{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.client-top{
+    display: flex;
+    gap: 30px;
+}
+
+.client-top .client-link{
+    display: block;
+    padding: 16px 32px;
+    height: 92px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    color: #AFB1B8;
+
+    transition:  border var(--animation), color var(--animation);
+}
+
+
+.client-icon{
+    fill: currentColor;
+}
+
+.client-link:hover,
+.client-link:focus{
+    color:var(--color-darkBlue);
+    border: 1px solid var(--color-darkBlue);
+}

@@ -1,0 +1,27 @@
+html{
+    box-sizing: border-box;
+    }
+
+    *, ::after, ::before {
+        box-sizing: border-box;
+    }
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:var(--color-white);
+    color: #212121;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.71;
+    margin: 0;
+}
+
+
+.header {
+    background-color: var(--color-white);
+}
+
+.footer{
+    background-color: #2F303A;
+}
