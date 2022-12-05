@@ -159,13 +159,7 @@ img {
 .header-nav .header-link {
   position: relative;
 }
-
-.header-link:hover,
-.header-link:focus,
-.ul__contacts:hover,
-.ul__contacts:focus,
-.footer-text:hover,
-.footer-text:focus {
+.header-nav .header-link:hover, .header-nav .header-link:focus {
   color: var(--color-darkBlue);
 }
 
@@ -177,6 +171,9 @@ img {
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
+}
+.ul__contacts:hover, .ul__contacts:focus {
+  color: var(--color-darkBlue);
 }
 
 .icon-mail {
@@ -712,6 +709,9 @@ img {
 .footer-text {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+}
+.footer-text:hover, .footer-text:focus {
+  color: var(--color-darkBlue);
 }
 
 .feature-text > .footer-text {

@@ -86,19 +86,13 @@
 
 .header-nav .header-link{
    position: relative;
-}
-
- 
-
-.header-link:hover,
-.header-link:focus,
-.ul__contacts:hover,
-.ul__contacts:focus,
-.footer-text:hover,
-.footer-text:focus
-{
+   &:hover,
+   &:focus,
+   {
    color: var(--color-darkBlue);
+   }
 }
+
 
 .ul__contacts{
    padding-top: 32px;
@@ -109,6 +103,10 @@
    letter-spacing: 0.02em;
    color: #757575;
    text-decoration: none;
+   &:hover,
+   &:focus{
+      color: var(--color-darkBlue);
+   }
 }
 
 .icon-mail{
